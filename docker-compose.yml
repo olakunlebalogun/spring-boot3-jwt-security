@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: jwt_db
+    environment:
+      POSTGRES_PASSWORD: jwt#sec
+      POSTGRES_USER: olakunle
+      POSTGRES_DB: jwt_sec_db
+    ports:
+      - '5430:5432'
+

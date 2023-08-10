@@ -1,0 +1,4 @@
+To access the database on terminal:
+1. docker exec -it <container_name> bash
+2. psql -U olakunle -h localhost -p 5432 jwt_sec_db
+
